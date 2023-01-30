@@ -8,6 +8,7 @@ The project makes use of the object detention algorithms developed in the _open 
 
 ### Hardware description
 
-The prototype as it was described is
+The „Rocket“ prototype as it was described is Arduino UNO board that drives a LCD using the electrical scheme and programming described in:
+[Liquid Crystal Displays (LCD) with Arduino](https://docs.arduino.cc/learn/electronics/lcd-displays)
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Scheme](https://docs.arduino.cc/static/7d7b6e99f40c7e55f2e9c6175c6db5b5/260cd/LCD_Base_bb_Fritz.png "Rocket Prototype")
