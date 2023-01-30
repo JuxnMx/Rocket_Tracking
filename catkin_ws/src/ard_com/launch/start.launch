@@ -1,0 +1,11 @@
+<launch>
+    <node name="serial_node"        pkg="rosserial_python"      type="serial_node.py">
+    <param name="port"              type="string"               value="/dev/ttyUSB0"/>
+    <param name="baud"              type="int"                  value="9600"/>
+    </node>
+    <node name ='cam_pub' pkg='ard_com' type='cam_sensor.py' output='screen' respawn='true' />
+    <node name ='ard_pub' pkg='ard_com' type='controller.py' output='screen' respawn='true' />
+    <node pkg='rqt_image_view' type='rqt_image_view' name='tracking_img' args='/cam_img'/>
+    <node pkg='rqt_plot' type='rqt_plot' name= 'control_viz' args='/u_msg/position/x:y'/>
+    <node name ='position_viz' pkg='ard_com' type='visualizer.py' output='screen' respawn='true' />
+</launch>
