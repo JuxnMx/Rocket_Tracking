@@ -1,4 +1,4 @@
-# Rocket_Tracking
+# Rocket Tracking
 
 The scope of this project is to make a closed control loop system in order to identify and locate a Rocket prior to the landing stage and guide it to the proper location.
 
