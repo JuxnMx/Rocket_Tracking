@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "../../VisionProject/RosEnviroment/Arduino Scripts/ArduinoPrint.ino"
+}
