@@ -1,2 +1,0 @@
-ard_com
--DCATKIN_DEVEL_PREFIX=/home/juan/Documents/VisionBasedControl/VisionProject/RosEnviroment/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/juan/Documents/VisionBasedControl/VisionProject/RosEnviroment/catkin_ws/install -G Unix Makefiles

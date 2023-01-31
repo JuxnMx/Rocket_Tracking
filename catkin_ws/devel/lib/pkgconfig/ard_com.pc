@@ -1,8 +1,0 @@
-prefix=/home/juan/Documents/VisionBasedControl/VisionProject/RosEnviroment/catkin_ws/devel
-
-Name: ard_com
-Description: Description of ard_com
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
